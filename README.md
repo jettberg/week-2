@@ -66,3 +66,6 @@ Check in your repo, then turn in your work via the <a target="_blank" href="http
 
 **REMINDER**: Make sure to answer the Slack discussion question!
 # week-2
+
+
+# This is me changing something here in the **README** to see if I actually know what i'm doing :D
