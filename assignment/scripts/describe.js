@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// this is assigning a variable called 'number' to the value of 1, then adds to it using ++ to increment it up to 2. 
+// then it checks if the variable is greater or equal to 2, creating a console log saying "yes" if that is true
 // 
 //
 
@@ -45,8 +45,8 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// this sets a variable called "name" to the value of 'Dane'
+// then checks if the variable is exactly equal to "Mary", console logging "Hi, Mary!" if that is true, otherwise it console logs "How do you do?"
 // 
 //
 
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// funny.
+// it sets a variable "secret", then also sets a variable "code" with a value of 123.
+// it then checks to see if the code is exactly equal to 123, which would change "secret" to have the value of "super", following with the value of "code" to then be doubled
+// it then checks again to see if the value of "code" is larger than 250, again changing the value of "secret" to "duper", following with a console log of the hidden "secret"
 
 //CODE
 /*
@@ -130,8 +130,8 @@ if (number >= 2) {
 //-- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'red';                     //the two variables are swapped. colorOne should be blue and colorTwo should be red
+let colorTwo = 'blue';                    // should be let colorOne = 'blue';   let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
@@ -144,11 +144,11 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
-let temp = 40;
+let temp = 40;  
 const time = 4;
 
-if (temp > 39 || time >= 4) {
-  console.log('throw away the food!');
+if (temp > 39 || time >= 4) {               // the problem lies in the use of the || which means OR. in reality if you are checking to see if two things are happening at once, using the & symbol
+  console.log('throw away the food!');      // so it should say   if (temp > 39 && time >= 4)
 }
 */
 
@@ -160,8 +160,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
+if(minAge <= age) {               // this is simple where we are instead checking if the minAge is less than or equal to age when we need to be looking for if the age is greater than or equal to minAge
+  console.log('no entry');        // it should say if(age >= minAge) instead of if(minAge <= age)
 } else {
   console.log('enter');
 }
