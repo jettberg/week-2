@@ -111,16 +111,50 @@ console.log (mostPets);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
-function questionSeventeen (petFunction) {
-let count = 0;
+var mostPets;
 
-switch (petFunction) {
-    case 1: 
+function questionSeventeen (pets, friendsPets) {
+let petCount = 0;
+let friendsPetCount = 0;
 
+switch (pets && friendsPets) {
+    case "pets": 
+        petCount++;
+        break;
+
+    case "friendsPets":
+        friendsPetCount++;
+        break;
 }
 
+if (petCount > friendsPetCount) {
+    mostPets == petCount;
 }
+else if (friendsPetCount > petCount) {
+    mostPets == friendsPetCount;
+}
+ }
+
+console.log (mostPets);
+
+
+
+
+
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+// practicing ternary to better understand them:
+mostPets = pets>friendsPets? pets : firendsPets;
+console.log (mostPets);
 
+// 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
+// if it's not true, console log "How about we stay home?"
+if (adventurous == true) {
+    console.log ( 'Adventures are great!');
+} else {
+    console.log ( 'How about we stay home?');
+}
+
+//to turn this into a ternary, we
+adventurous==true? "Adventures are great!" : 'How about we stay home?';
